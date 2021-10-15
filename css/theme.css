@@ -590,7 +590,7 @@ blockquote {
 .splash-screen h1 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 58px;
+	font-size: 5rem;
 	font-weight: 500;
 	color: #fff;
 	font-family: "Playfair Display", serif;
@@ -661,21 +661,16 @@ blockquote {
 /* media queries */
 @media (max-width: 560px) {
 	.splash-screen h1 {
-		font-size: 48px;
+		font-size: 4rem;
 	}
 }
 @media (max-width: 420px) {
 	.splash-screen h1 {
-		font-size: 40px;
+		font-size: 3rem;
 	}
 }
 @media (max-width: 356px) {
 	.splash-screen h1 {
-		font-size: 32px;
-	}
-}
-@media (max-width: 290px) {
-	.splash-screen h1 {
-		font-size: 24px;
+		font-size: 2rem;
 	}
 }
