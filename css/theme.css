@@ -657,3 +657,21 @@ blockquote {
 	height: 100vh;
 	width: 100%;
 }
+@media (max-width: 540px) {
+	.splash-screen h1 {
+		font-size: 48px;
+		font-weight: 500;
+	}
+}
+@media (max-width: 420px) {
+	.splash-screen h1 {
+		font-size: 40px;
+		font-weight: 500;
+	}
+}
+@media (max-width: 356px) {
+	.splash-screen h1 {
+		font-size: 32px;
+		font-weight: 500;
+	}
+}
