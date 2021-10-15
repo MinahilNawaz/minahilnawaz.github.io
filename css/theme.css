@@ -674,3 +674,8 @@ blockquote {
 		font-size: 32px;
 	}
 }
+@media (max-width: 290px) {
+	.splash-screen h1 {
+		font-size: 28px;
+	}
+}
