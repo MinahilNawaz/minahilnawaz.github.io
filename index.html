@@ -40,7 +40,7 @@
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
 				<div class="splash-screen">
-					<img src="images/a.jpeg" alt="Slide Image" class="w-h-100" />
+					<img src="images/bg.jpeg" alt="Slide Image" class="w-h-100" />
 					<div class="text-center position-fixed overlay p-mid text-white">
 						<div class="row">
 							<div class="col-md-12">
@@ -59,9 +59,9 @@
 				</div>
 			</div>
 		</div>
-		<div id="particles">
+		<!-- <div id="particles">
 			<div id="intro"></div>
-		</div>
+		</div> -->
 		<!-- About Me -->
 		<section id="about-me-section  " class="about" py-5 my-5>
 			<div class="container" data-aos="fade-up">
@@ -74,11 +74,11 @@
 				</div>
 
 				<div class="row">
-					<div class="col-lg-4">
+					<div class="dp col-sm-4">
 						<img src="images/dp.png" class="img" alt="" />
 					</div>
 					<div class="col-lg-8 pt-4 pt-lg-0 content">
-						<h3 class="primary">WHO AM I</h3>
+						<h3 class="text-yellow">WHO AM I</h3>
 						<p class="fst-italic font-weight-700 ">	<p>
 							My name is Minahil Nawaz and I'm Front-end  developer. Meticulous web developer with over 1 year of front end experience and passion for responsive website design
 						</p></p>
@@ -108,11 +108,6 @@
 			
 		</section>
 
-		<div id="particles">
-			<div id="intro">
-				
-			</div>
-		</div>
 		<section id="education-section" class="resume py-5 my-5">
 			<div class="container">
 			  <div class="section-title">
@@ -121,7 +116,7 @@
 	  
 			  <div class="row">
 				<div class="col-lg-6">
-				  <h3 class="resume-title">Education History</h3>
+				  <h3 class="resume-title text-yellow">Education History</h3>
 	  
 				  <h3 class="resume-title"></h3>
 				  <div class="resume-item">
@@ -138,15 +133,15 @@
 				  </div>
 				  <div class="resume-item">
 					<h4>Matriculation</h4>
-					<h5>2021 - Present</h5>
-					<p><em>I have done my FSc from Educators College Sahiwal</em></p>
+					<h5>2013 - 2015</h5>
+					<p><em>I have done my Matric from Allied School Sahiwal</em></p>
 					
 				  </div>
 				</div>
 				<div class="col-lg-6">
-				  <h3 class="resume-title">Professional Experience</h3>
+				  <h3 class="resume-title text-yellow">Professional Experience</h3>
 				  <div class="resume-item">
-					<h4>Front End Developer</h4>
+					<h4>Front End Developer (Systems Limited)</h4>
 					<h5>2021 - Present</h5>
 					<p><em>I am working as a Front end developer in Systems Limited</em></p>
 					<p>
@@ -159,7 +154,7 @@
 					</p>
 				  </div>
 				  <div class="resume-item">
-					<h4>React Native Intern</h4>
+					<h4>React Native Intern (Shopdev)</h4>
 					<h5>May-2021 - August-2021</h5>
 					<p><em>I have completed my internship in ReactNative from Shopdev</em></p>
 					<p>
@@ -176,6 +171,75 @@
 	  
 			</div>
 		  </section>
+
+		    <!-- ======= Contact Me Section ======= -->
+			<section id="contact-section" class="contact">
+				<div class="container">
+				  <div class="section-title">
+					<h2>Contact Me</h2>
+				  </div>
+		  
+				  <div class="row">
+					<div class="col-lg-6">
+					  <div class="row">
+						<div class="col-md-12">
+						  <div class="info-box">
+							<i class="fa-2x fa fa-share-alt text-yellow "></i>
+							<h3>Social Profiles</h3>
+							<div class="social-links">
+							  <a href="#" class="github"><i class="fa fa-github"></i></a>
+							  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+							  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+							  <a href="#" class="google-plus"><i class="fa fa-skype"></i></a>
+							  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+							</div>
+						  </div>
+						</div>
+						<div class="col-md-6">
+						  <div class="info-box mt-4">
+							<i class="fa-2x fa fa-envelope text-yellow"></i>
+							<h3>Email Me</h3>
+							<p>minahil1323@gmail.com</p>
+						  </div>
+						</div>
+						<div class="col-md-6">
+						  <div class="info-box mt-4">
+							<i class="fa-2x fa fa-phone text-yellow"></i>
+							<h3>Call Me</h3>
+							<p>+92307 0562260</p>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-lg-6">
+					  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+						<div class="row">
+						  <div class="col-md-6 form-group mt-3 mt-md-0">
+							<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+						  </div>
+						  <div class="col-md-6 form-group mt-3 mt-md-0">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+						  </div>
+						</div>
+						<div class="form-group mt-3 mt-md-0">
+						  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+						</div>
+						<div class="form-group mt-3 mt-md-0">
+						  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+						</div>
+						<div class="my-3">
+						  <div class="loading">Loading</div>
+						  <div class="error-message"></div>
+						  <div class="sent-message">Your message has been sent. Thank you!</div>
+						</div>
+						<div class="text-center"><button type="submit">Send Message</button></div>
+					  </form>
+					</div>
+		  
+				  </div>
+		  
+				</div>
+			  </section><!-- End Contact Me Section -->
 	  
 		
 		
