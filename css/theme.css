@@ -766,7 +766,11 @@ blockquote {
 	.splash-screen h1 {
 		font-size: 4rem;
 	}
+	.section-title span {
+		font-size: 40px;
+	}
 }
+
 @media (max-width: 420px) {
 	.splash-screen h1 {
 		font-size: 3rem;
