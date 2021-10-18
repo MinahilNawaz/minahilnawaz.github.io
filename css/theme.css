@@ -73,6 +73,9 @@ h1 {
 .text-red {
 	color: red;
 }
+.text-dark {
+	color: #3b434a;
+}
 .font-size-regular {
 	font-size: regular;
 }
@@ -92,18 +95,17 @@ h1 {
 	color: var(--orange);
 }
 .navbar-default .navbar-nav > li > a {
-	color: var(--dark);
+	color: var(--orange);
 	font-family: "Mulish", sans-serif;
 }
 .navbar-default .navbar-nav > .active,
 .navbar-default .navbar-nav > .active > a {
-	color: var(--orange);
-	background-color: var(--white);
+	color: var(--yellow);
 }
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > li > a:hover {
-	color: var(--white);
+	color: var(--yellow);
 }
 .mt-5 {
 	margin-top: 3rem !important;
@@ -595,7 +597,7 @@ blockquote {
 	filter: none !important;
 }
 .overlay {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.8);
 	z-index: 2;
 	top: 0;
 	left: 0;
@@ -698,6 +700,21 @@ blockquote {
 	position: relative;
 	z-index: 2;
 }
+.section-title span {
+	position: absolute;
+	top: -5px;
+	color: rgb(255, 219, 190);
+	left: 0;
+	right: 0;
+	z-index: 1;
+	font-weight: 700;
+	font-size: 52px;
+	text-transform: uppercase;
+	line-height: 0;
+}
+.section-title {
+	position: relative;
+}
 
 .about .skills-content .progress {
 	height: 60px;
@@ -744,13 +761,7 @@ blockquote {
 		font-size: 2rem;
 	}
 }
-@media (max-width: 920px) {
-	/* .dp.img {
-		width: 20%;
-		border-radius: 50%;
-		height: 300px;
-	} */
-}
+
 /* resume */
 .resume .resume-title {
 	font-size: 26px;
@@ -767,10 +778,10 @@ blockquote {
 }
 .resume .resume-item h4 {
 	line-height: 18px;
-	font-size: 16px;
-	font-weight: 700;
+	font-size: 20px;
+	font-weight: 900;
 	text-transform: uppercase;
-	color: #ffb727;
+	color: var(--yellow);
 	margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -780,15 +791,6 @@ blockquote {
 	display: inline-block;
 	font-weight: 600;
 	margin-bottom: 10px;
-}
-.resume .resume-item ul {
-	padding-left: 20px;
-}
-.resume .resume-item ul li {
-	padding-bottom: 10px;
-}
-.resume .resume-item:last-child {
-	padding-bottom: 0;
 }
 .resume .resume-item::before {
 	content: "";
@@ -801,9 +803,8 @@ blockquote {
 	background: #fff;
 	border: 2px solid #82909c;
 }
-/*--------------------------------------------------------------
-# Contact Me
---------------------------------------------------------------*/
+
+/* Contact */
 .contact .info-box {
 	color: #444444;
 	text-align: center;
@@ -836,7 +837,6 @@ blockquote {
 }
 .contact .social-links a {
 	font-size: 18px;
-	display: inline-block;
 	color: #687683;
 	line-height: 1;
 	margin: 0 8px;
@@ -850,70 +850,7 @@ blockquote {
 	border-color: #ffb727;
 	background: #ffb727;
 }
-.contact .php-email-form {
-	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-	padding: 27px;
-}
-.contact .php-email-form .validate {
-	display: none;
-	color: red;
-	margin: 0 0 15px 0;
-	font-weight: 400;
-	font-size: 13px;
-}
-.contact .php-email-form .error-message {
-	display: none;
-	color: #fff;
-	background: #ed3c0d;
-	text-align: left;
-	padding: 15px;
-	font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-	margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-	display: none;
-	color: #fff;
-	background: #18d26e;
-	text-align: center;
-	padding: 15px;
-	font-weight: 600;
-}
-.contact .php-email-form .loading {
-	display: none;
-	background: #fff;
-	text-align: center;
-	padding: 15px;
-}
-.contact .php-email-form .loading:before {
-	content: "";
-	display: inline-block;
-	border-radius: 50%;
-	width: 24px;
-	height: 24px;
-	margin: 0 10px -6px 0;
-	border: 3px solid #18d26e;
-	border-top-color: #eee;
-	-webkit-animation: animate-loading 1s linear infinite;
-	animation: animate-loading 1s linear infinite;
-}
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-	border-radius: 0;
-	box-shadow: none;
-	font-size: 14px;
-}
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
-	background-color: #ffb727;
-}
-.contact .php-email-form input {
-	padding: 10px 15px;
-}
-.contact .php-email-form textarea {
-	padding: 12px 15px;
-}
+
 .contact .php-email-form button[type="submit"] {
 	background: #ffb727;
 	border: 0;
@@ -924,4 +861,78 @@ blockquote {
 }
 .contact .php-email-form button[type="submit"]:hover {
 	background: #ffc85a;
+}
+/* interests */
+.interests .icon-box {
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.3);
+	transition: all 0.3s ease-in-out;
+	text-align: center;
+	border: 1px solid #fff;
+}
+.interests .icon {
+	margin: 0 auto 20px auto;
+	padding-top: 17px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	width: 72px;
+	height: 72px;
+	background: #fff4df;
+}
+.interests .icon i {
+	font-size: 36px;
+	line-height: 1;
+	color: #ffb727;
+}
+.interests .title {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.interests .title a {
+	color: var(--dark);
+	transition: 0.3s;
+}
+.interests .description {
+	font-size: 15px;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+.interests .icon-box:hover {
+	border-color: var(--yellow);
+}
+.interests .icon-box:hover .title a {
+	color: var(--yellow);
+}
+/* skills */
+.skills .skills-content .progress {
+	height: 60px;
+	display: block;
+	background: none;
+	border-radius: 0;
+}
+.skills .skills-content .progress .skill {
+	margin: 0 0 6px 0;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 700;
+	font-family: "Raleway", sans-serif;
+	color: #3b434a;
+}
+.skills .skills-content .progress .skill .val {
+	float: right;
+	font-style: normal;
+}
+.skills-content .progress-bar-wrap {
+	background: #e6e8eb;
+}
+.skills-content .progress-bar {
+	width: 1px;
+	height: 10px;
+	transition: 0.9s;
+	background-color: #ffb727;
 }
