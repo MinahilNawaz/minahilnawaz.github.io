@@ -12,6 +12,10 @@
 	--darkish: #777;
 	--blue: #bd3f00;
 	--yellow: #ffb727;
+	--python: #3f48cc;
+	--sql: #b8d431;
+	--java: #407597;
+	--c: #0080cd;
 }
 html {
 	scroll-behavior: smooth;
@@ -66,6 +70,18 @@ h1 {
 }
 .text-darkish {
 	color: var(--darkish);
+}
+.text-sql {
+	color: var(--sql);
+}
+.text-java {
+	color: var(--java);
+}
+.text-python {
+	color: var(--python);
+}
+.text-c {
+	color: var(--c);
 }
 .text-warning {
 	color: #f89d13 !important;
@@ -761,6 +777,20 @@ blockquote {
 		font-size: 2rem;
 	}
 }
+@media (max-width: 768px) {
+	.navbar .pull-right {
+		float: none !important;
+		text-align: center;
+	}
+	.navbar + .navbar {
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
+	li + li {
+		margin-top: 10px !important;
+		margin-bottom: 10px !important;
+	}
+}
 
 /* resume */
 .resume .resume-title {
@@ -886,7 +916,11 @@ blockquote {
 .interests .icon i {
 	font-size: 36px;
 	line-height: 1;
-	color: #ffb727;
+	color: var(--yellow);
+}
+.interests .icons i {
+	font-size: 36px;
+	line-height: 1;
 }
 .interests .title {
 	font-weight: 700;
