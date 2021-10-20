@@ -740,6 +740,9 @@ blockquote {
 .skill-progress-div p span {
 	float: right;
 }
+.p-15 {
+	padding: 15px;
+}
 
 .progress-bar-success {
 	background-color: var(--yellow);
@@ -773,6 +776,9 @@ blockquote {
 }
 @media (max-width: 768px) {
 	.navbar-header h1 {
+		text-align: center;
+	}
+	.navbar .social-media {
 		text-align: center;
 	}
 }
