@@ -44,7 +44,9 @@ h1 {
 .bg-light {
 	background-color: var(--light);
 }
-
+.bg-blue {
+	background-color: var(--yellow);
+}
 .bg-white {
 	background-color: var(--white);
 }
@@ -750,7 +752,11 @@ blockquote {
 .progress {
 	height: 12px;
 }
-
+.action .btn {
+	width: 150px;
+	padding: 15px;
+	margin: 10px 70px;
+}
 /* media queries */
 @media (max-width: 560px) {
 	.splash-screen h1 {
@@ -758,6 +764,9 @@ blockquote {
 	}
 	.section-title span {
 		font-size: 34px;
+	}
+	.dp img {
+		text-align: center;
 	}
 }
 
@@ -942,8 +951,12 @@ blockquote {
 	transition: 0.4s;
 	border-radius: 5px;
 }
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type="submit"]:hover,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
 	background: #599ba0;
+	border: none;
 }
 @-webkit-keyframes animate-loading {
 	0% {
