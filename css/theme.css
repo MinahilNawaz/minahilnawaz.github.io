@@ -753,9 +753,9 @@ blockquote {
 	height: 12px;
 }
 .action .btn {
-	width: 150px;
+	width: 250px;
 	padding: 15px;
-	margin: 10px 70px;
+	margin: 10px 50px;
 }
 /* media queries */
 @media (max-width: 560px) {
