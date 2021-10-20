@@ -8,10 +8,10 @@
 	--dark: #373737;
 	--gray: #999999;
 	--lightGray: #e0e0e0;
-	--orange: #f16821;
+	--orange: #018394;
 	--darkish: #777;
 	--blue: #bd3f00;
-	--yellow: #ffb727;
+	--yellow: #018394;
 	--python: #3f48cc;
 	--sql: #b8d431;
 	--java: #407597;
@@ -54,8 +54,8 @@ h1 {
 .bg-lightt {
 	background-color: #f8f9fa !important;
 }
-.bg-black {
-	background-color: var(--black) !important;
+.bg-dark-blue {
+	background-color: #3b434a !important;
 }
 .text-yellow {
 	color: var(--yellow);
@@ -111,11 +111,9 @@ h1 {
 	margin-bottom: 0;
 	border: 1px solid transparent;
 }
-.nav-bar .nav > a:hover {
-	color: var(--orange);
-}
+
 .navbar-default .navbar-nav > li > a {
-	color: var(--orange);
+	color: var(--white);
 	font-family: "Mulish", sans-serif;
 }
 .navbar-default .navbar-nav > .active,
@@ -543,26 +541,6 @@ i:hover {
 	letter-spacing: 0.9px;
 	width: 80%;
 }
-.experience {
-	position: absolute;
-	bottom: -10px;
-	right: -10px;
-	background: #46ddb0;
-	padding: 20px;
-}
-.experience .year {
-	font-weight: 900;
-	color: #fff;
-	font-size: 3rem;
-	letter-spacing: normal;
-	line-height: 1.2;
-}
-.experience span {
-	display: block;
-}
-.border-bottom {
-	border-bottom: 3em solid transparent;
-}
 
 .form-control:active,
 .form-control:focus {
@@ -617,7 +595,7 @@ blockquote {
 	filter: none !important;
 }
 .overlay {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.6);
 	z-index: 2;
 	top: 0;
 	left: 0;
@@ -636,7 +614,7 @@ blockquote {
 }
 .splash-screen h1 span {
 	font-weight: 900;
-	color: var(--blue);
+	color: var(--orange);
 }
 .cd-words-wrapper {
 	display: inline-block;
@@ -690,7 +668,7 @@ blockquote {
 	opacity: 1;
 }
 .border-bottom {
-	border-bottom: 2px solid var(--blue);
+	border-bottom: 2px solid var(--orange);
 }
 .w-h-100 {
 	height: 100vh;
@@ -723,12 +701,12 @@ blockquote {
 .section-title span {
 	position: absolute;
 	top: -5px;
-	color: rgb(255, 219, 190);
+	color: #e1f1f3;
 	left: 0;
 	right: 0;
 	z-index: 1;
 	font-weight: 700;
-	font-size: 52px;
+	font-size: 42px;
 	text-transform: uppercase;
 	line-height: 0;
 }
@@ -736,33 +714,32 @@ blockquote {
 	position: relative;
 }
 
-.about .skills-content .progress {
-	height: 60px;
-	display: block;
-	background: none;
-	border-radius: 0;
-}
-.about .skills-content .progress .skill {
-	padding: 10px 0;
-	margin: 0 0 6px 0;
-	text-transform: uppercase;
-	display: block;
-	font-weight: 700;
-	font-family: "Raleway", sans-serif;
-	color: #3b434a;
-}
-.about .skills-content .progress .skill .val {
-	float: right;
-	font-style: normal;
-}
-.about .skills-content .progress-bar-wrap {
-	background: #e6e8eb;
-}
-.about .skills-content .progress-bar {
+/* skills */
+
+.skills-content .progress-bar {
 	width: 1px;
 	height: 10px;
 	transition: 0.9s;
-	background-color: #ffb727;
+	background-color: var(--yellow);
+}
+
+.skill-wrapper {
+	background-color: #3b434a;
+	color: var(--white);
+}
+
+.skill-progress-div p {
+	color: var(--white);
+}
+.skill-progress-div p span {
+	float: right;
+}
+
+.progress-bar-success {
+	background-color: var(--yellow);
+}
+.progress {
+	height: 12px;
 }
 
 /* media queries */
@@ -811,7 +788,7 @@ blockquote {
 .resume .resume-item h4 {
 	line-height: 18px;
 	font-size: 20px;
-	font-weight: 900;
+	font-weight: 700;
 	text-transform: uppercase;
 	color: var(--yellow);
 	margin-bottom: 10px;
@@ -837,6 +814,9 @@ blockquote {
 }
 
 /* Contact */
+/*--------------------------------------------------------------
+# Contact Me
+--------------------------------------------------------------*/
 .contact .info-box {
 	color: #444444;
 	text-align: center;
@@ -869,6 +849,7 @@ blockquote {
 }
 .contact .social-links a {
 	font-size: 18px;
+	display: inline-block;
 	color: #687683;
 	line-height: 1;
 	margin: 0 8px;
@@ -879,12 +860,75 @@ blockquote {
 }
 .contact .social-links a:hover {
 	color: #fff;
-	border-color: #ffb727;
-	background: #ffb727;
+	border-color: var(--yellow);
+	background: var(--yellow);
 }
-
+.contact .php-email-form {
+	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+	padding: 27px;
+}
+.contact .php-email-form .validate {
+	display: none;
+	color: red;
+	margin: 0 0 15px 0;
+	font-weight: 400;
+	font-size: 13px;
+}
+.contact .php-email-form .error-message {
+	display: none;
+	color: #fff;
+	background: #ed3c0d;
+	text-align: left;
+	padding: 15px;
+	font-weight: 600;
+}
+.contact .php-email-form .error-message br + br {
+	margin-top: 25px;
+}
+.contact .php-email-form .sent-message {
+	display: none;
+	color: #fff;
+	background: #18d26e;
+	text-align: center;
+	padding: 15px;
+	font-weight: 600;
+}
+.contact .php-email-form .loading {
+	display: none;
+	background: #fff;
+	text-align: center;
+	padding: 15px;
+}
+.contact .php-email-form .loading:before {
+	content: "";
+	display: inline-block;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	margin: 0 10px -6px 0;
+	border: 3px solid #18d26e;
+	border-top-color: #eee;
+	-webkit-animation: animate-loading 1s linear infinite;
+	animation: animate-loading 1s linear infinite;
+}
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 14px;
+}
+.contact .php-email-form input::focus,
+.contact .php-email-form textarea::focus {
+	background-color: var(--yellow);
+}
+.contact .php-email-form input {
+	padding: 10px 15px;
+}
+.contact .php-email-form textarea {
+	padding: 12px 15px;
+}
 .contact .php-email-form button[type="submit"] {
-	background: #ffb727;
+	background: var(--yellow);
 	border: 0;
 	padding: 10px 24px;
 	color: #fff;
@@ -892,8 +936,25 @@ blockquote {
 	border-radius: 5px;
 }
 .contact .php-email-form button[type="submit"]:hover {
-	background: #ffc85a;
+	background: #599ba0;
 }
+@-webkit-keyframes animate-loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes animate-loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 /* interests */
 .interests .icon-box {
 	padding: 30px;
@@ -913,7 +974,7 @@ blockquote {
 	border-radius: 50%;
 	width: 72px;
 	height: 72px;
-	background: #fff4df;
+	background: #e8f5fc;
 }
 .interests .icon i {
 	font-size: 36px;
@@ -942,32 +1003,4 @@ blockquote {
 }
 .interests .icon-box:hover .title a {
 	color: var(--yellow);
-}
-/* skills */
-.skills .skills-content .progress {
-	height: 60px;
-	display: block;
-	background: none;
-	border-radius: 0;
-}
-.skills .skills-content .progress .skill {
-	margin: 0 0 6px 0;
-	text-transform: uppercase;
-	display: block;
-	font-weight: 700;
-	font-family: "Raleway", sans-serif;
-	color: #3b434a;
-}
-.skills .skills-content .progress .skill .val {
-	float: right;
-	font-style: normal;
-}
-.skills-content .progress-bar-wrap {
-	background: #e6e8eb;
-}
-.skills-content .progress-bar {
-	width: 1px;
-	height: 10px;
-	transition: 0.9s;
-	background-color: #ffb727;
 }
