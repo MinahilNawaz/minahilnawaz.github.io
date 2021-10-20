@@ -57,6 +57,9 @@ h1 {
 .bg-dark-blue {
 	background-color: #3b434a !important;
 }
+.text-dark-blue {
+	color: var(--yellow);
+}
 .text-yellow {
 	color: var(--yellow);
 }
@@ -574,6 +577,9 @@ blockquote {
 	position: sticky;
 	top: 0;
 	z-index: 999;
+	border-radius: 0%;
+}
+.br-0 {
 	border-radius: 0%;
 }
 
