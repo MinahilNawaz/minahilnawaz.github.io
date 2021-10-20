@@ -759,11 +759,17 @@ blockquote {
 	.section-title span {
 		font-size: 34px;
 	}
+	.navbar .social-media {
+		text-align: center;
+	}
 }
 
 @media (max-width: 420px) {
 	.splash-screen h1 {
 		font-size: 3rem;
+	}
+	.navbar .social-media {
+		text-align: center;
 	}
 }
 @media (max-width: 356px) {
@@ -772,6 +778,9 @@ blockquote {
 	}
 	.section-title span {
 		font-size: 30px;
+	}
+	.navbar .social-media {
+		text-align: center;
 	}
 }
 @media (max-width: 768px) {
