@@ -767,6 +767,8 @@ blockquote {
 	}
 	.dp img {
 		text-align: center;
+		width: 20%;
+		height: 100px;
 	}
 }
 
