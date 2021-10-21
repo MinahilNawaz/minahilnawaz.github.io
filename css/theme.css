@@ -8,10 +8,9 @@
 	--dark: #373737;
 	--gray: #999999;
 	--lightGray: #e0e0e0;
-	--orange: #018394;
+	--navy: #018394;
 	--darkish: #777;
-	--blue: #bd3f00;
-	--yellow: #018394;
+	--navy: #018394;
 	--python: #3f48cc;
 	--sql: #b8d431;
 	--java: #407597;
@@ -45,7 +44,7 @@ h1 {
 	background-color: var(--light);
 }
 .bg-blue {
-	background-color: var(--yellow);
+	background-color: var(--navy);
 }
 .bg-white {
 	background-color: var(--white);
@@ -60,10 +59,10 @@ h1 {
 	background-color: #3b434a !important;
 }
 .text-dark-blue {
-	color: var(--yellow);
+	color: var(--navy);
 }
-.text-yellow {
-	color: var(--yellow);
+.text-navy {
+	color: var(--navy);
 }
 .text-dark {
 	color: #777777;
@@ -105,7 +104,7 @@ h1 {
 	font-size: regular;
 }
 .primary {
-	color: var(--orange);
+	color: var(--navy);
 }
 .nav-link {
 	color: var(--dark);
@@ -123,12 +122,12 @@ h1 {
 }
 .navbar-default .navbar-nav > .active,
 .navbar-default .navbar-nav > .active > a {
-	color: var(--yellow);
+	color: var(--navy);
 }
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > li > a:hover {
-	color: var(--yellow);
+	color: var(--navy);
 }
 .mt-5 {
 	margin-top: 3rem !important;
@@ -549,7 +548,7 @@ i:hover {
 
 .form-control:active,
 .form-control:focus {
-	border-color: var(--orange);
+	border-color: var(--navy);
 	box-shadow: none;
 }
 .carousel-inner.image img {
@@ -572,7 +571,7 @@ blockquote {
 	border: none;
 }
 .carousel-indicators .active {
-	background-color: var(--orange);
+	background-color: var(--navy);
 }
 .sticky-top {
 	position: -webkit-sticky;
@@ -590,7 +589,7 @@ blockquote {
 	transition: 0.4s all ease;
 	transform: scale(1.05);
 	content: "";
-	outline: 4px solid var(--orange);
+	outline: 4px solid var(--navy);
 	outline-offset: -30px;
 	left: 5px;
 	right: 5px;
@@ -622,7 +621,7 @@ blockquote {
 }
 .splash-screen h1 span {
 	font-weight: 900;
-	color: var(--orange);
+	color: var(--navy);
 }
 .cd-words-wrapper {
 	display: inline-block;
@@ -676,7 +675,7 @@ blockquote {
 	opacity: 1;
 }
 .border-bottom {
-	border-bottom: 2px solid var(--orange);
+	border-bottom: 2px solid var(--navy);
 }
 .w-h-100 {
 	height: 100vh;
@@ -702,7 +701,7 @@ blockquote {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	padding-bottom: 0;
-	color: var(--orange);
+	color: var(--navy);
 	position: relative;
 	z-index: 2;
 }
@@ -728,7 +727,7 @@ blockquote {
 	width: 1px;
 	height: 10px;
 	transition: 0.9s;
-	background-color: var(--yellow);
+	background-color: var(--navy);
 }
 
 .skill-wrapper {
@@ -747,7 +746,7 @@ blockquote {
 }
 
 .progress-bar-success {
-	background-color: var(--yellow);
+	background-color: var(--navy);
 }
 .progress {
 	height: 12px;
@@ -810,7 +809,7 @@ blockquote {
 	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: var(--yellow);
+	color: var(--navy);
 	margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -878,8 +877,8 @@ blockquote {
 }
 .contact .social-links a:hover {
 	color: #fff;
-	border-color: var(--yellow);
-	background: var(--yellow);
+	border-color: var(--navy);
+	background: var(--navy);
 }
 .contact .php-email-form {
 	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -937,7 +936,7 @@ blockquote {
 }
 .contact .php-email-form input::focus,
 .contact .php-email-form textarea::focus {
-	background-color: var(--yellow);
+	background-color: var(--navy);
 }
 .contact .php-email-form input {
 	padding: 10px 15px;
@@ -946,7 +945,7 @@ blockquote {
 	padding: 12px 15px;
 }
 .contact .php-email-form button[type="submit"] {
-	background: var(--yellow);
+	background: var(--navy);
 	border: 0;
 	padding: 10px 24px;
 	color: #fff;
@@ -1021,8 +1020,55 @@ blockquote {
 	margin-bottom: 0;
 }
 .interests .icon-box:hover {
-	border-color: var(--yellow);
+	border-color: var(--navy);
 }
 .interests .icon-box:hover .title a {
-	color: var(--yellow);
+	color: var(--navy);
+}
+.facebook i:hover,
+.facebook i:focus,
+.linkedin i:hover,
+.linkedin i:focus {
+	color: var(--c);
+}
+.instagram i:hover,
+.instagram i:focus {
+	color: rgb(243, 86, 112);
+}
+.github i:hover,
+.github i:focus {
+	color: purple;
+}
+.image {
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+.imageOverlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.8;
+	transition: 0.7s ease;
+	width: 100%;
+	height: 100%;
+}
+.ecom:hover .imageOverlay,
+.selling:hover .imageOverlay,
+.uiKit:hover .imageOverlay {
+	opacity: 0.9;
+	background-color: var(--navy);
+}
+.overlay-text {
+	opacity: 0;
+	text-align: center;
+}
+.overlay-text:hover {
+	text-align: center;
+	color: var(--white);
+	font-size: 32px;
+	font-weight: 700;
+	padding: 15px;
 }
