@@ -764,11 +764,6 @@ blockquote {
 	.section-title span {
 		font-size: 34px;
 	}
-	.dp img {
-		text-align: center;
-		width: 20%;
-		height: 100px;
-	}
 }
 
 @media (max-width: 420px) {
