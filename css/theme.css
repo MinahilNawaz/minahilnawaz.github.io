@@ -756,6 +756,14 @@ blockquote {
 	padding: 15px;
 	margin: 10px 50px;
 }
+.navbar-default .navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 6px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: var(--navy);
+	height: 4px;
+	width: 25px;
+}
 /* media queries */
 @media (max-width: 560px) {
 	.splash-screen h1 {
@@ -763,6 +771,10 @@ blockquote {
 	}
 	.section-title span {
 		font-size: 34px;
+	}
+	.navbar {
+		margin: 0 auto;
+		padding: 15px;
 	}
 }
 
