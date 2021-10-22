@@ -592,7 +592,6 @@ blockquote {
 	color: var(--dark);
 }
 .navbar {
-	position: relative;
 	min-height: 50px;
 	margin-bottom: 0;
 	border: 1px solid transparent;
