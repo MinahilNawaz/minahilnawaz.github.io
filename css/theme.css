@@ -1077,6 +1077,8 @@ blockquote {
 	opacity: 0.9;
 	background-color: var(--navy);
 	border: 1px solid var(--dark);
+	transition: 0.4s all ease;
+	transform: scale(1.05);
 }
 .overlay-text {
 	opacity: 0;
@@ -1089,7 +1091,6 @@ blockquote {
 	font-size: 32px;
 	font-weight: 700;
 	padding: 15px;
-	transition-timing-function: cubic-bezier(0.1, 0.3, 1, 0.1);
 }
 .link-btn {
 	font-size: 2rem;
