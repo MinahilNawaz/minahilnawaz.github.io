@@ -1078,7 +1078,7 @@ blockquote {
 	background-color: var(--navy);
 	border: 1px solid var(--dark);
 	transition: 0.4s all ease;
-	transform: scale(1.05);
+	transform: scale(1.06);
 }
 .overlay-text {
 	opacity: 0;
