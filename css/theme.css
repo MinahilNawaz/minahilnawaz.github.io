@@ -787,7 +787,13 @@ blockquote {
 	.section-title span {
 		font-size: 34px;
 	}
-	.navbar {
+	.link-btn {
+		display: block;
+	}
+	.uiKit,
+	.selling,
+	.ecom {
+		margin: 15px;
 	}
 }
 
@@ -1065,13 +1071,18 @@ blockquote {
 }
 .ecom:hover .imageOverlay,
 .selling:hover .imageOverlay,
-.uiKit:hover .imageOverlay {
+.uiKit:hover .imageOverlay,
+.ecom .btn:hover,
+.selling .btn:hover,
+.uiKit .btn:hover {
 	opacity: 0.9;
 	background-color: var(--navy);
+	border: 1px solid var(--dark);
 }
 .overlay-text {
 	opacity: 0;
 	text-align: center;
+	font-size: 2rem;
 }
 .overlay-text:hover {
 	text-align: center;
@@ -1080,4 +1091,11 @@ blockquote {
 	font-weight: 700;
 	padding: 15px;
 	transition-timing-function: cubic-bezier(0.1, 0.3, 1, 0.1);
+}
+.link-btn {
+	font-size: 2rem;
+	position: absolute;
+	right: 30%;
+	top: 40%;
+	border: 1px solid var(--white);
 }
