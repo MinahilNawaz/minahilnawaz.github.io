@@ -794,6 +794,16 @@ blockquote {
 	.ecom {
 		margin: 15px;
 	}
+	.navbar {
+		padding-left: 15px;
+	}
+	.resume .resume-item h4 {
+		font-size: 16px !important;
+		text-transform: lowercase;
+	}
+	.action .btn {
+		width: 150px;
+	}
 }
 
 @media (max-width: 420px) {
