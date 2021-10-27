@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Festive&family=Rampart+One&display=swap");
 
 :root {
 	--white: #ffffff;
@@ -23,13 +24,13 @@ html {
 }
 
 .body {
-	font-family: "Balsamiq Sans", cursive;
+	font-family: "Rampart One", cursive;
 	line-height: 1.7;
 	color: var(--dark);
 	font-size: 1rem;
 }
 .font-family-Sans {
-	font-family: "Balsamiq Sans", cursive;
+	font-family: "Rampart One", cursive;
 }
 /* helper classes */
 h1 {
@@ -630,7 +631,7 @@ blockquote {
 	font-size: 5rem;
 	font-weight: 500;
 	color: #fff;
-	font-family: "Balsamiq Sans", cursive;
+	font-family: "Rampart One", cursive;
 }
 .splash-screen h1 span {
 	font-weight: 900;
