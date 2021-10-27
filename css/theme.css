@@ -10,7 +10,6 @@
 	--lightGray: #e0e0e0;
 	--navy: #018394;
 	--darkish: #777;
-	--navy: #018394;
 	--python: #3f48cc;
 	--sql: #b8d431;
 	--java: #407597;
@@ -580,7 +579,7 @@ blockquote {
 	filter: none !important;
 }
 .overlay {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.3);
 	z-index: 2;
 	top: 0;
 	left: 0;
@@ -692,7 +691,7 @@ blockquote {
 	border-bottom: 2px solid var(--navy);
 }
 .w-h-100 {
-	max-height: calc(100vh - 113px);
+	min-height: calc(100vh - 113px);
 	width: 100%;
 	object-fit: cover;
 }
@@ -1108,4 +1107,8 @@ blockquote {
 	right: 30%;
 	top: 40%;
 	border: 1px solid var(--white);
+}
+.p-mid {
+	padding-top: 30vh !important;
+	padding-bottom: 30vh !important;
 }
