@@ -876,6 +876,18 @@ blockquote {
 		margin: 0 100px;
 	}
 }
+@media (max-width: 344px) {
+	.action .btn {
+		width: 150px;
+		margin: 0 5px;
+	}
+	.img {
+		width: 40%;
+		border-radius: 50%;
+		height: 150px;
+		margin: 0 95px;
+	}
+}
 /********** resume ************/
 .resume .resume-title {
 	font-size: 26px;
