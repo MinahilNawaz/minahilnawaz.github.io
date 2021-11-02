@@ -852,7 +852,30 @@ blockquote {
 		text-align: center;
 	}
 }
-
+@media (max-width: 384px) {
+	.action .btn {
+		width: 150px;
+		margin: 0 15px;
+	}
+	.img {
+		width: 40%;
+		border-radius: 50%;
+		height: 180px;
+		margin: 0 100px;
+	}
+}
+@media (max-width: 363px) {
+	.action .btn {
+		width: 150px;
+		margin: 0 10px;
+	}
+	.img {
+		width: 40%;
+		border-radius: 50%;
+		height: 150px;
+		margin: 0 100px;
+	}
+}
 /********** resume ************/
 .resume .resume-title {
 	font-size: 26px;
