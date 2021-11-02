@@ -803,10 +803,38 @@ blockquote {
 	}
 	.action .btn {
 		width: 150px;
+		margin: 0 30px;
+	}
+	.img {
+		width: 40%;
+		border-radius: 50%;
+		height: 200px;
+		margin: 0 155px;
+	}
+	.content h3 {
+		text-align: center;
+	}
+}
+@media (max-width: 515px) {
+	.img {
+		width: 40%;
+		border-radius: 50%;
+		height: 200px;
+		margin: 0 135px;
 	}
 }
 
-@media (max-width: 420px) {
+@media (max-width: 424px) {
+	.img {
+		width: 40%;
+		border-radius: 50%;
+		height: 180px;
+		margin: 0 120px;
+	}
+	.action .btn {
+		width: 150px;
+		margin: 0 20px;
+	}
 	.splash-screen h1 {
 		font-size: 3rem;
 	}
