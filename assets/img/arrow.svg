@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="24px" viewBox="0 0 13 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Homepage----Desktop" transform="translate(-177.000000, -8028.000000)" fill="#000000">
+            <g id="icon/arrow" transform="translate(184.000000, 8040.000000) scale(-1, 1) translate(-184.000000, -8040.000000) translate(164.000000, 8020.000000)">
+                <g id="next" transform="translate(14.000000, 8.000000)">
+                    <path d="M12.4885858,11.5016736 L1.18649372,0.19958159 C0.920384937,-0.0665271967 0.493606695,-0.0665271967 0.227497908,0.19958159 C-0.0386108787,0.465690377 -0.0386108787,0.892468619 0.227497908,1.15857741 L11.0475816,11.9786611 L0.227497908,22.7987448 C-0.0386108787,23.0648536 -0.0386108787,23.4916318 0.227497908,23.7577406 C0.358041841,23.8882845 0.533774059,23.9585774 0.704485356,23.9585774 C0.875196653,23.9585774 1.05092887,23.8933054 1.1814728,23.7577406 L12.4835649,12.4556485 C12.7496736,12.1945607 12.7496736,11.7627615 12.4885858,11.5016736 Z" id="Path" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

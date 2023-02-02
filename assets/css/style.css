@@ -44,6 +44,10 @@ h6 {
   .margin-40 {
     margin-top: 40px;
   }
+
+  #hero h2 {
+    color: #fff !important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -158,6 +162,22 @@ h6 {
 @media (max-width: 992px) {
   #header .logo {
     font-size: 28px;
+  }
+
+  #header li::before {
+    content: '';
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    right: 20px;
+    position: absolute;
+    width: 15px;
+    height: 25px;
+    display: block;
+    -webkit-transform: rotate(-180deg);
+  }
+
+  .navbar li {
+    padding: 20px 0 20px 28px !important;
   }
 }
 
